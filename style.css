@@ -1,22 +1,23 @@
+
 main{
   display: flex;
   width: 100vw;
   height: 100vh;
   justify-content: center;
   align-items: center;
-
 }
 
 .container{
   display: flex;
   flex-direction: column;
-  background: rgb(255,198,0);
-  width: 400px;
-  height: 600px;
+  background: url(/balanca.png) no-repeat;
+  width: 100%;
+  height: 100%;
   align-items: center;
   justify-content: space-evenly;
   border-radius: 20px;
-  box-shadow: 0 0 10px black;
+  box-shadow: 0px 0px 10px #cbdda0;
+  
 }
 
 .title{
@@ -25,8 +26,10 @@ main{
   align-items: center;
   width: 100%;
   height: 50px;
-  font: bold 2.5rem serif;
-  border-bottom: solid 5px black;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  font-size: 50px;
+  color: #04431b8c;
+  border-bottom: solid 5px #04431b78;
   margin-bottom: 20px;
 }
 
@@ -36,30 +39,43 @@ main{
   height: 50px;
   justify-content: space-between;
   align-items: center;
+  
 }
 .input input {
   width: 200px;
   height: 50px;
   border-radius: 5px;
-  border:none;
   outline: 0;
-  font: bold 1.5rem serif;
+  font-size: 25px;
   text-align: center;
+  background-color: #cbdda055;
+  border: none;
+  box-shadow: 0px 0px 5px #04431b;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  text-shadow:1px 1px 3px #04431b ;
+  color: #ebeff4;
 }
 
 .input label {
-  font: bold 1.5rem serif;
+  font-size: 25px;
+  text-shadow:1px 1px 3px #04431b ;
+  color: #ebeff4;
+  font-family: Georgia, Times, 'Times New Roman', serif;
 }
-
 button{
   width: 300px;
   height: 40px;
-  font: bold 1.2rem serif;
-  background: #000;
-  color: rgb(255,198,0);
+  font-size: 25px;
+  background: #cbdda06e;
+  color: #ebeff4;
   outline: none;
   border-radius: 5px;
   cursor: pointer;
+  background-color: #cbdda055;
+  box-shadow: 0px 0px 5px #04431b;
+  text-shadow:1px 1px 3px #04431b ;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  border: none;
 }
 
 .result{
@@ -69,11 +85,12 @@ button{
   width: 300px;
   height: 150px;
   border-radius: 5px;
-  font: italic 1.5rem serif;
-  box-shadow: 0px 0px 10px black;
-  background: #000;
-  color: rgb(255,198,0);
-  padding: 20px;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  font-size: 25px;
+  box-shadow: 1px 1px 3px #04431b;
+  color:#ebeff4;
+  text-shadow:1px 1px 3px #04431b;
   box-sizing: border-box;
   user-select: none;
+  background-color: #cbdda055;
 }
