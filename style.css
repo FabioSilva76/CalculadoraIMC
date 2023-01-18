@@ -48,33 +48,34 @@ main{
   outline: 0;
   font-size: 25px;
   text-align: center;
-  background-color: #cbdda055;
+  background-color: #bbf43655;
   border: none;
-  box-shadow: 0px 0px 5px #04431b;
+  box-shadow: 0px 0px 5px #064e20;
   font-family: Georgia, Times, 'Times New Roman', serif;
-  text-shadow:1px 1px 3px #04431b ;
-  color: #ebeff4;
+  text-shadow:1px 1px 3px gray ;
+  color: rgb(13, 67, 110);
 }
 
 .input label {
   font-size: 25px;
   text-shadow:1px 1px 3px #04431b ;
-  color: #ebeff4;
+  color: rgb(13, 67, 110);
   font-family: Georgia, Times, 'Times New Roman', serif;
 }
 button{
   width: 300px;
   height: 40px;
   font-size: 25px;
-  background: #cbdda06e;
-  color: #ebeff4;
+  background: #bbf43655;
+  color: rgb(13, 67, 110);
   outline: none;
   border-radius: 5px;
   cursor: pointer;
-  background-color: #cbdda055;
+  background-color: #bbf43655;
   box-shadow: 0px 0px 5px #04431b;
-  text-shadow:1px 1px 3px #04431b ;
-  font-family: Georgia, Times, 'Times New Roman', serif;
+  text-shadow:1px 1px 2px white ;
+  text-transform: uppercase;
+  font-family: 'Times New Roman', Times, serif;
   border: none;
 }
 
@@ -88,9 +89,9 @@ button{
   font-family: Georgia, Times, 'Times New Roman', serif;
   font-size: 25px;
   box-shadow: 1px 1px 3px #04431b;
-  color:#ebeff4;
-  text-shadow:1px 1px 3px #04431b;
+  color:rgb(13, 67, 110);
+  text-shadow:1px 1px 2px white;
   box-sizing: border-box;
   user-select: none;
-  background-color: #cbdda055;
+  background-color: #bbf43655;
 }
